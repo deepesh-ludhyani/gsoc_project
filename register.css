@@ -78,6 +78,14 @@ input {
 	font-size: 1.4rem;
 }
 
+p.desginer {
+    opacity: 1;
+    position: absolute;
+    bottom: 5px;
+    padding-left: 15px;
+    color: white;
+    font-weight: bold;
+}
 
 input[type="text"]:focus,
 input[type="email"]:focus,
