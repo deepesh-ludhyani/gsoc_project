@@ -96,34 +96,43 @@ table {
 }
 #wholeBox #output {
 	overflow: auto;
-	margin-bottom: 20px;
+	//margin-bottom: 20px;
 }
 
 
 #wholeBox #output #clear {
 	float: left;
-	background: white;
-	width: 85%;
-	padding: 0 10px;
+	background: orange;
+	width: 15%;
+	//padding: 0 10px;
 	text-align: center;
-	height: 46px;
-	line-height: 46px;
+	height: 35px;
+	line-height: 35px;
 	border-radius: 8px;
-	margin-top:10px ;
-	margin-bottom: 0;
-	margin-left: 15px;
+	//margin-top:10px ;
+	//margin-bottom: 0;
+	//margin-left: 15px;
+	cursor: pointer;
+	border: 1px solid grey;
+	box-shadow: 1px 2px 5px grey;
+	margin-bottom: 5px;
 }
 
 
 #wholeBox #output #answer {
 	float: left;
 	background: white;
-	width: 85%;
+	width: 80%;
 	padding: 0 10px;
 	text-align: right;
 	height: 46px;
 	line-height: 46px;
 	border-radius: 8px;
-	margin-top:10px ;
-	margin-bottom: 0;
-	margin-left: 15px;
+	//margin-top:10px ;
+	margin-bottom: 20px;
+	margin-left: 0px;}
+
+	#wholeBox #output #clear:active {
+	box-shadow: 0px 0px 0px white;
+	//margin-top: 1px;
+}
