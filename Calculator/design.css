@@ -45,3 +45,85 @@ table {
 /* All these codes removes
  all the default stylings from the webpage which 
  are automatically applied by our web browser */
+
+ /* main desgining css code starts from below */
+ body {
+ 	background-color: orange; 
+ }
+
+#wholeBox {
+	width: 400px;
+	margin: 0 auto;
+	height: auto;
+	background-color: green;
+	font-family: Helvetica;
+	border: 8px solid white;
+	margin-top: 50px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#wholeBox #Buttons {
+	overflow: scroll;
+	font-size: 15px;
+}
+
+#wholeBox #Buttons li {
+	float: left;
+	background: lightblue;
+	width: 23%;
+	height: 80px;
+	text-align: center;
+	margin-right: 8px;
+	margin-bottom: 10px;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-left: 0px;
+	margin-top: 8px;
+	line-height: 75px;
+	box-shadow: 1px 3px 2px black;
+}
+
+#wholeBox #Buttons li:nth-child(4n) {
+	background-color: white;
+	margin-right: 0px;
+	margin-left: 5px;
+}
+#wholeBox #Buttons li:active {
+	box-shadow: 0px 0px 0px white;
+	//margin-top: 1px;
+	
+}
+#wholeBox #output {
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+
+#wholeBox #output #clear {
+	float: left;
+	background: white;
+	width: 85%;
+	padding: 0 10px;
+	text-align: center;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 8px;
+	margin-top:10px ;
+	margin-bottom: 0;
+	margin-left: 15px;
+}
+
+
+#wholeBox #output #answer {
+	float: left;
+	background: white;
+	width: 85%;
+	padding: 0 10px;
+	text-align: right;
+	height: 46px;
+	line-height: 46px;
+	border-radius: 8px;
+	margin-top:10px ;
+	margin-bottom: 0;
+	margin-left: 15px;
