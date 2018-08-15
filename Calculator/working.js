@@ -18,7 +18,7 @@ window.onload = function()
 				}
 				catch(e)
 				{
-					answer.innerHTML = e.message;
+					answer.innerHTML = "Bhen ke lode, sahi se likh!";
 				}
 			}
 				else{

@@ -122,7 +122,7 @@ table {
 #wholeBox #output #answer {
 	float: left;
 	background: white;
-	width: 80%;
+	width: 95%;
 	padding: 0 10px;
 	text-align: right;
 	height: 46px;
@@ -135,4 +135,13 @@ table {
 	#wholeBox #output #clear:active {
 	box-shadow: 0px 0px 0px white;
 	//margin-top: 1px;
+}
+
+#desgin {
+	position: absolute; bottom: 15px; left: 15px;
+	font-size: 18px;
+}
+
+#desgin #name {
+	font-family: sans-serif;
 }
